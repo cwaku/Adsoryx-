@@ -10818,6 +10818,15 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.display-6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .companies {
   padding: 0 0 5rem 0;
 }

@@ -10950,5 +10950,8 @@ textarea.form-control-lg {
   padding: 0;
   background: linear-gradient(to right, rgba(41, 41, 41, 0.95), rgba(39, 61, 73, 0.95));
 }
+.testimonials p {
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -7,4 +7,9 @@
     position: relative;
     padding: 0;
     @include gradient;
+
+    p {
+        color: $white;
+    }
+
 }

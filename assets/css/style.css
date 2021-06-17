@@ -10892,6 +10892,11 @@ textarea.form-control-lg {
   filter: grayscale(120);
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;

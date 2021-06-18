@@ -6,3 +6,48 @@
     padding-top: 1rem;
     background-color: $footer;
 }
+
+//CONTACT-BOX CONTENT
+
+.contact-box {
+    position: relative;
+
+    &__icon {
+        width: 2rem;
+        padding-top: 0.5rem;
+        stroke: $blue-dark;
+
+        @include media-breakpoint-up(sm) {
+            width: 4rem;
+        }
+    }
+
+    &__info {
+        padding: 0.4rem;
+        font-weight: 600;
+
+        &--title {
+            color: $white;
+            text-decoration: none;
+            font-size: 1rem;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1.4rem;
+            }
+
+            &:hover {
+                color: $blue-dark;
+            }
+
+        }
+
+        &--subtitle {
+            font-size: 0.8rem;
+            color: $gray-600;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1rem;
+            }
+        }
+    }
+}

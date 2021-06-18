@@ -10937,6 +10937,37 @@ textarea.form-control-lg {
   }
 }
 
+.footer-sm {
+  color: #fff;
+}
+.footer-sm i {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #fff;
+}
+@media (min-width: 576px) {
+  .footer-sm i {
+    font-size: 1.6rem;
+  }
+}
+
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #273d49;
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;

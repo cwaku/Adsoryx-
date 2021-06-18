@@ -51,3 +51,45 @@
         }
     }
 }
+
+
+// SOCIAL MEDIA CONTENT
+.footer-sm {
+    color: $white;
+
+
+    i {
+        font-size: 1rem;
+        margin-left: 1rem;
+        color: $white;
+
+
+        @include media-breakpoint-up(sm) {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+//COMPANY INFO CONTENT
+
+.company-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+
+
+    li {
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+
+        a {
+            color: $white;
+            text-decoration: none;
+
+
+            &:hover {
+                color: $blue-dark;
+            }
+        }
+    }
+}

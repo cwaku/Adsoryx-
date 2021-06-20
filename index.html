@@ -617,24 +617,26 @@
               </form>
             -->
             <form name="contact" method="POST" data-netlify="true">
-                <p>
-                  <label>Your Name: <input type="text" name="name" /></label>   
-                </p>
-                <p>
-                  <label>Your Email: <input type="email" name="email" /></label>
-                </p>
-                <p>
-                  <label>Your Role: <select name="role[]" multiple>
-                    <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
-                  </select></label>
-                </p>
-                <p>
-                  <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
+                <div class="col-lg-6 col-md-6 mb-3">
+                    <input type="text" name="name" placeholder="First Name" id="inputFisrtName" class="shadow form-control-lg form-control" />
+                </div>
+                <div class="col-lg-6 col-md-6 mb-3">
+                    <input type="text" name="name" placeholder="Last Name" id="inputLastName" class="shadow form-control-lg form-control" />
+                </div>
+                <div class="col-lg-6 col-md-6 mb-3">
+                <input type="email" name="email" placeholder="Email" id="email" class="shadow form-control-lg form-control" />
+                </div>
+                <div>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <textarea name="message" id="message" placeholder="Message"  rows="8" class="shadow form-control-lg form-control"></textarea>
+                  </div>
+                  <div class="text-center d-grid mt-1">
+                      <button type="submit" class="btn-primary rounded-pill pt-3 pb-3">
+                          Submit
+                          <i class="fas fa-paper-plane"></i>
+                      </button>
+                  </div>
               </form>
 
           </div>

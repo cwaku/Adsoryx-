@@ -10877,6 +10877,11 @@ textarea.form-control-lg {
 .companies {
   padding: 0 0 5rem 0;
 }
+@media (max-width: 575.98px) {
+  .companies {
+    display: none;
+  }
+}
 .companies__logo-box {
   max-width: 100%;
   height: 3rem;
@@ -10890,6 +10895,11 @@ textarea.form-control-lg {
 }
 .companies__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.faq {
+  padding: 4rem 0;
+  background-color: #ced4da;
 }
 
 .footer {
@@ -11022,7 +11032,7 @@ textarea.form-control-lg {
 }
 
 .form {
-  padding: 3rem;
+  padding: 2rem;
 }
 .form button {
   border: none;
@@ -11086,7 +11096,7 @@ textarea.form-control-lg {
 }
 
 .portfolio {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .portfolio button {
   text-transform: capitalize;

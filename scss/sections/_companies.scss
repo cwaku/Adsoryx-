@@ -1,6 +1,14 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 .companies {
     padding: 0 0 5rem 0;
+
+    @include media-breakpoint-down(sm) {
+       display: none;
+    }
+
+
 
     &__logo-box {
         max-width: 100%;

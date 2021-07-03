@@ -60,74 +60,71 @@
 
 
 
-<!---      FAQ SECTION     -->
-<section id="faq" class="faq">
-    <div class="container">
-        <div class="row text-center">
-            <h1 class="display-6 fw-bold text-uppercase">faq</h1>
-            <div class="heading-line"></div>
-            <p class="lead">frequently asked questions, get knowledge before hand</p>
-        </div>
-        <!---    ACCORDION CONTENT     -->
-        <div class="row mt-5">
-            <div class="col-md-12">
-                <div class="accordion" id="accordionExample">
-                    <!---      ACCORDION ITEM 1     -->
-                    <div class="accordion-item shadow mb-3">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                                        <!---      ACCORDION ITEM 2     -->
-                    <div class="accordion-item shadow mb-3">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                                        <!---      ACCORDION ITEM 3     -->
-                    <div class="accordion-item shadow mb-3">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accordion Item #3
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                                        <!---      ACCORDION ITEM 4     -->
-                    <div class="accordion-item shadow mb-3">
-                        <h2 class="accordion-header" id="headingFour">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Accordion Item #4
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-                  </div>
+
+
+                    
+<!---      GET STARTED SECTION    -->
+<section id="contact" class="get-started">
+  <div class="container">
+      <div class="row text-center">
+          <h1 class="display-6 fw-bold text-capitalize">Get started</h1>
+          <div class="heading-line"></div>
+          <p class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eos tenetur facere.
+          </p>
+      </div>
+    <!---      CTA CONTENT     -->
+    <div class="row text-white">
+        <div class="col-12 col-lg-6 gradient shadow p-3">
+            <div class="cta-info w-100">
+                <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+                <p class="lh-lg">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
+                     labore. Numquam placeat quod aspernatur quidem voluptas.
+                </p>
+                <h3 class="display-6--brief">What will be the next step?</h3>
+                <ul class="cta-info__list">
+                    <li>We'll prepare the proposal</li>
+                    <li>We'll dicuss it together</li>
+                    <li>Lets's start the discussion</li>
+                </ul>
             </div>
         </div>
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+            <h4 class="display-6--title mb-5">Start Your project</h4>
+          <form name="contact" method="POST" data-netlify="true" class="row">
+              <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="text" name="name" placeholder="Full Name" id="inputFullName" class="shadow form-control-lg form-control" required/>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="tel" name="Phone" placeholder="Phone" id="phone" class="shadow form-control-lg form-control" required/>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="text" name="Website" placeholder="Website" id="website" class="shadow form-control-lg form-control" />
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                  <input type="text" name="Company" placeholder="Company" id="phone" class="shadow form-control-lg form-control" />
+              </div>
+              <div class="col-lg-12 col-md-12 mb-3">
+              <input type="email" name="email" placeholder="Email" id="email" class="shadow form-control-lg form-control" required/>
+              </div>
+              <div>
+              </div>
+              <div class="col-lg-12 mb-3">
+                  <textarea name="message" id="message" placeholder="Tell us what you are interested in"  rows="8" class="shadow form-control-lg form-control" required></textarea>
+                </div>
+                <div class="text-center d-grid mt-1">
+                    <button type="submit" class="btn-primary rounded-pill pt-3 pb-3">
+                        Submit
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+
+        </div>
     </div>
+  </div>
 </section>
 
 
@@ -137,59 +134,76 @@
 
 
 
-<!---      GET STARTED SECTION    -->
-<section id="contact" class="get-started">
-    <div class="container">
-        <div class="row text-center">
-            <h1 class="display-6 fw-bold text-capitalize">Get started</h1>
-            <div class="heading-line"></div>
-            <p class="lh-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eos tenetur facere.
-            </p>
-        </div>
-      <!---      CTA CONTENT     -->
-      <div class="row text-white">
-          <div class="col-12 col-lg-6 gradient shadow p-3">
-              <div class="cta-info w-100">
-                  <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
-                  <p class="lh-lg">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
-                       labore. Numquam placeat quod aspernatur quidem voluptas.
-                  </p>
-                  <h3 class="display-6--brief">What will be the next step?</h3>
-                  <ul class="cta-info__list">
-                      <li>We'll prepare the proposal</li>
-                      <li>We'll dicuss it together</li>
-                      <li>Lets's start the discussion</li>
-                  </ul>
-              </div>
-          </div>
-          <div class="col-12 col-lg-6 bg-white shadow p-3">
-          <div class="form w-100 pb-2">
-              <h4 class="display-6--title mb-5">Start Your project</h4>
-              <form action="#" class="row" netlify>
-                  <div class="col-lg-6 col-md-6 mb-3">
-                    <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control-lg form-control">
-                  </div>
-                  <div class="col-lg-6 col-md-6 mb-3">
-                      <input type="text" placeholder="Last Name" id="inputLasttName" class="shadow form-control-lg form-control">
-                  </div>
-                  <div class="col-lg-12 mb-3">
-                      <input type="email" placeholder="Email" id="email" class="shadow form-control-lg form-control">
+
+
+<!---      FAQ SECTION     -->
+<section id="faq" class="faq">
+  <div class="container">
+      <div class="row text-center">
+          <h1 class="display-6 fw-bold text-uppercase">faq</h1>
+          <div class="heading-line"></div>
+          <p class="lead">frequently asked questions, get knowledge before hand</p>
+      </div>
+      <!---    ACCORDION CONTENT     -->
+      <div class="row mt-5">
+          <div class="col-md-12">
+              <div class="accordion" id="accordionExample">
+                  <!---      ACCORDION ITEM 1     -->
+                  <div class="accordion-item shadow mb-3">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
                     </div>
-                  <div class="col-lg-12 mb-3">
-                      <textarea name="message" id="message" placeholder="Message"  rows="8" class="shadow form-control-lg form-control"></textarea>
+                  </div>
+                                      <!---      ACCORDION ITEM 2     -->
+                  <div class="accordion-item shadow mb-3">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
                     </div>
-                    <div class="text-center d-grid mt-1">
-                        <button type="submit" class="btn-primary rounded-pill pt-3 pb-3">
-                            Submit
-                            <i class="fas fa-paper-plane"></i>
+                  </div>
+                                      <!---      ACCORDION ITEM 3     -->
+                  <div class="accordion-item shadow mb-3">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                                      <!---      ACCORDION ITEM 4     -->
+                  <div class="accordion-item shadow mb-3">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Accordion Item #4
                         </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
                     </div>
-              </form>
+                </div>
           </div>
       </div>
-    </div>
+  </div>
 </section>
 
 

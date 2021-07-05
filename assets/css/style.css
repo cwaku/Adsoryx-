@@ -10767,6 +10767,12 @@ textarea.form-control-lg {
     transform: scale3d(1, 1, 1);
   }
 }
+@media (max-width: 575.98px) {
+  .nav-btn {
+    display: none;
+  }
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
@@ -10774,11 +10780,7 @@ textarea.form-control-lg {
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
-}
-@media (max-width: 575.98px) {
-  .btn-rounded {
-    display: none;
-  }
+  text-transform: uppercase;
 }
 .btn-rounded span {
   position: absolute;

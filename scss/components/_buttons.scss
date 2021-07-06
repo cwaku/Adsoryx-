@@ -12,10 +12,15 @@
     position: relative;
     padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
     font-weight: 700;
-    margin: 0;
+    margin: 4px;
     border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
     text-transform: uppercase;
+
+    @include media-breakpoint-down(sm) {
+        padding: 0.5375rem 3.375rem 0.5375rem 1.05rem;
+        font-weight: 700;
+    }
 
     span {
         position: absolute;
@@ -26,6 +31,10 @@
         right: 5px;
         transform: translateY(-50%);
         border-radius: 50%;
+
+        @include media-breakpoint-down(sm) {
+            right: 2px;
+        }
 
         i {
             color: $white;

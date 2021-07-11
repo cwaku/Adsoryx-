@@ -11161,7 +11161,7 @@ textarea.form-control-lg {
 
 .services {
   position: relative;
-  padding: 1rem 0;
+  padding: 0.4rem 0;
 }
 .services__content {
   padding: 1rem;
@@ -11191,6 +11191,12 @@ textarea.form-control-lg {
 }
 .services__pic {
   max-width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .sm-hidden {
+    display: none;
+  }
 }
 
 .testimonials {

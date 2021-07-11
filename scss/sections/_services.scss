@@ -2,7 +2,7 @@
 
 .services {
     position: relative;
-    padding: 1rem 0;
+    padding: 0.4rem 0;
 
     &__content {
         padding: 1rem;
@@ -30,6 +30,13 @@
     }
     &__pic {
         max-width: 100%;
+        
 
+    }
+}
+
+.sm-hidden {
+    @include media-breakpoint-down(sm) {
+        display: none;
     }
 }

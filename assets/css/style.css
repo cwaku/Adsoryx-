@@ -11002,6 +11002,16 @@ textarea.form-control-lg {
   color: #dee2e6;
 }
 
+.footer-des {
+  font-size: 2.324rem;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .footer-des {
+    font-size: 1.508rem;
+  }
+}
+
 .back-top {
   position: fixed;
   width: 3rem;

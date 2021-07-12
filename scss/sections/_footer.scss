@@ -110,6 +110,14 @@
     }
 }
 
+.footer-des {
+    font-size: 2.324rem;
+    text-align: center;
+
+    @include media-breakpoint-down(lg) {
+        font-size: 1.508rem;
+    }
+}
 
 //BACK TO TOP BUTTON
 .back-top {

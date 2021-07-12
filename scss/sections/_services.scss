@@ -33,3 +33,10 @@
 
     }
 }
+
+
+.sm-hidden {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}

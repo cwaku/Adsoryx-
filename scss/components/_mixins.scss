@@ -19,3 +19,15 @@
     transition-duration: 1000ms;
     transition-property: all;
 }
+
+// SERVICES DETAILS SECTION
+
+@mixin box-sizing {
+    box-sizing: border-box;
+}
+@mixin transition {
+    transition: all .3s ease-in-out;
+}
+@mixin boxshadow {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}

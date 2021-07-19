@@ -10869,7 +10869,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
   display: inline-block;
   background-image: linear-gradient(to right, #292929, #273d49);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {

@@ -10869,7 +10869,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
   display: inline-block;
   background-image: linear-gradient(to right, #292929, #273d49);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
@@ -11326,6 +11326,167 @@ pricing-update {
 }
 .testimonials p {
   color: #fff;
+}
+
+.services-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: #ddf0fc;
+  box-sizing: border-box;
+}
+
+#btns * {
+  transition: all 0.3s ease-in-out;
+}
+
+#btns {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-flow: row wrap;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btnS {
+  position: relative;
+  padding: 10px 20px 25px;
+  width: 25%;
+  background: #111;
+  font-family: lato;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Button Backgrounds */
+.btnS:nth-child(1) {
+  background: #117ec3;
+}
+
+.btnS:nth-child(2) {
+  background: #1491e1;
+}
+
+.btnS:nth-child(3) {
+  background: #2ba1eb;
+}
+
+.btnS:nth-child(4) {
+  background: #49afef;
+}
+
+/* Arrows */
+.btnS:nth-child(1):after,
+.btnS:nth-child(2):after,
+.btnS:nth-child(3):after {
+  position: absolute;
+  top: 45%;
+  right: -18px;
+  z-index: 1;
+  content: "";
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #117ec3;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnS:nth-child(2):after {
+  border-left: 20px solid #1491e1;
+}
+
+.btnS:nth-child(3):after {
+  border-left: 20px solid #2ba1eb;
+}
+
+/* Icon */
+.btnS .icon {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  transform-origin: center;
+  transform: scale(0.9);
+  color: #fff;
+}
+
+.btnS .icon svg {
+  fill: currentColor;
+}
+
+.btnS .icon path {
+  fill: currentColor;
+}
+
+.btnS .icon {
+  fill: currentColor;
+}
+
+/* Text Styles */
+.btnS h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+  font-family: raleway;
+  font-size: 1.4em;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+.btnS p {
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+/* Hover Effects */
+.btnS:hover {
+  background: #0b6ca9;
+}
+
+.btnS:hover:after {
+  border-left: 20px solid #0b6ca9;
+}
+
+.btnS:hover .icon {
+  transform-origin: center;
+  transform: scale(1);
+  color: #fff;
+}
+
+.btnS:hover h2 {
+  color: #fff;
+}
+
+/* Media Queries */
+@media all and (max-width: 950px) and (min-width: 701px) {
+  .btnS {
+    width: 50%;
+  }
+
+  .btnS:nth-child(2):after {
+    border-left: 0px;
+  }
+}
+@media all and (max-width: 700px) and (min-width: 0px) {
+  .btnS {
+    display: block;
+    width: 100%;
+  }
+
+  .btnS:nth-child(1):after,
+.btnS:nth-child(2):after,
+.btnS:nth-child(3):after {
+    border-left: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

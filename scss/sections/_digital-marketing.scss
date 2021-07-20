@@ -14,7 +14,7 @@
 }
 
 #btns * {
-    @include transition;
+    @include effects;
   }
   
   #btns {
@@ -27,7 +27,7 @@
     @include boxshadow;
   }
   
-  .btn {
+  .btnS {
     position: relative;
     padding: 10px 20px 25px;
     width: 25%;
@@ -39,26 +39,26 @@
   
   /* Button Backgrounds */
   
-  .btn:nth-child(1) {
+  .btnS:nth-child(1) {
     background: #117ec3;
   }
   
-  .btn:nth-child(2) {
+  .btnS:nth-child(2) {
     background: #1491e1;
   }
   
-  .btn:nth-child(3) {
+  .btnS:nth-child(3) {
     background: #2ba1eb;
   }
   
-  .btn:nth-child(4) {
+  .btnS:nth-child(4) {
     background: #49afef;
   }
   /* Arrows */
   
-  .btn:nth-child(1):after,
-  .btn:nth-child(2):after,
-  .btn:nth-child(3):after {
+  .btnS:nth-child(1):after,
+  .btnS:nth-child(2):after,
+  .btnS:nth-child(3):after {
     position: absolute;
     top: 45%;
     right: -18px;
@@ -67,21 +67,23 @@
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 20px solid #117ec3;
-    @include transition;
+    @include effects;
   }
   
-  .btn:nth-child(2):after {
+  .btnS:nth-child(2):after {
     border-left: 20px solid #1491e1;
   }
   
-  .btn:nth-child(3):after {
+  .btnS:nth-child(3):after {
     border-left: 20px solid #2ba1eb;
   }
   /* Icon */
   
-  .btn .icon {
+  .btnS .icon {
     display: block;
     margin: 10px auto;
+    text-align: center;
+    font-size: 3rem;
     width: 80px;
     height: 80px;
     transform-origin: center;
@@ -89,21 +91,21 @@
     color: $primary-color;
   }
   
-  .btn .icon svg {
+  .btnS .icon svg {
     fill: currentColor;
   }
   
-  .btn .icon path {
+  .btnS .icon path {
     fill: currentColor;
   }
   
-  .btn .icon {
+  .btnS .icon {
     fill: currentColor;
   }
   
   /* Text Styles */
   
-  .btn h2 {
+  .btnS h2 {
     margin-bottom: 15px;
     text-align: center;
     color: $primary-color;
@@ -113,7 +115,7 @@
     font-weight: 400;
   }
   
-  .btn p {
+  .btnS p {
     color: $primary-color;
     text-align: center;
     font-size: 1em;
@@ -123,45 +125,46 @@
   
   /* Hover Effects */
   
-  .btn:hover {
+  .btnS:hover {
     background: #0b6ca9;
   }
   
-  .btn:hover:after {
+  .btnS:hover:after {
     border-left: 20px solid #0b6ca9;
   }
   
-  .btn:hover .icon {
+  .btnS:hover .icon {
     transform-origin: center;
     transform: scale(1);
     color: $primary-color;
+    //font-size: 5rem;
   }
   
-  .btn:hover h2 {
+  .btnS:hover h2 {
     color: $primary-color;
   }
   
   /* Media Queries */
   
   @media all and (max-width: 950px) and (min-width: 701px) {
-    .btn {
+    .btnS {
       width: 50%;
     }
     
-    .btn:nth-child(2):after {
+    .btnS:nth-child(2):after {
       border-left: 0px;
     }
   }
   
   @media all and (max-width: 700px) and (min-width: 0px) {
-    .btn {
+    .btnS {
       display: block;
       width: 100%;
     }
     
-    .btn:nth-child(1):after,
-    .btn:nth-child(2):after,
-    .btn:nth-child(3):after {
+    .btnS:nth-child(1):after,
+    .btnS:nth-child(2):after,
+    .btnS:nth-child(3):after {
       border-left: 0px;
     }
   }

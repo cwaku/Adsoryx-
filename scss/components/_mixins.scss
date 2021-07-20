@@ -25,7 +25,7 @@
 @mixin box-sizing {
     box-sizing: border-box;
 }
-@mixin transition {
+@mixin effects {
     transition: all .3s ease-in-out;
 }
 @mixin boxshadow {

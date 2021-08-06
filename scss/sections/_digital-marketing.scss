@@ -91,11 +91,11 @@
     color: $primary-color;
   }
   
-  .btnS .icon svg {
+  .btnS .icon {
     fill: currentColor;
   }
   
-  .btnS .icon path {
+  .btnS .icon {
     fill: currentColor;
   }
   
@@ -216,11 +216,11 @@
   margin-left: -50px;
 }
 
-.active{
+/*.active{
   z-index: 3;
   top: -25px;
   height: 300px;
-}
+}*/
 
 .title{
   color: #FFF;

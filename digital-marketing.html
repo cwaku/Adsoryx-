@@ -6,14 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adsoryx Digital</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/assets/vendors/css/animate/animate.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/animsition/css/animsition.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/select2/select2.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/daterangepicker/daterangepicker.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/noui/nouislider.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/maincta.css">
+  <!--===============================================================================================-->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/cta.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <body>
   <!---    NAVBAR SECTION     -->
-  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top autohide">
     <div class="container">
       <a class="navbar-brand fw-bold display-5" href="#">Adsoryx Digital</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +44,13 @@
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#services">Services</a>
+            <a class="nav-link" href="services-intro.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">FAQ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Our Work</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pricing.html">Pricing</a>
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded nav-btn">(233) 555145007
@@ -51,8 +67,8 @@
 
 
   <section id="contact" class="services-details">
-    <div class="container pt-5 pb-5">
-      <div class="row text-center">
+    <div class="container pt-5">
+      <div class="row pt-3 text-center">
         <h1 class="display-6 fw-bold text-capitalize">Digital Marketing & SEO</h1>
         <div class="heading-line"></div>
       </div>
@@ -111,6 +127,110 @@
 
 
 
+    </div>
+  </section>
+
+
+
+
+  <section id="CTA">
+    <div class="container-contact100">
+      <div class="wrap-contact100 shadow">
+        <form action="https://formsubmit.co/7cc1f0fb14765b5d203fba6d83587c49" method="POST" class="contact100-form validate-form">
+          <div class="row text-center CTA-title">
+            <h1 class="contact100-form-title display-6 fw-bold text-capitalize">contact us</h1>
+            <div class="heading-line"></div>
+          </div>
+          
+          
+  
+          <div class="wrap-input100 shadow validate-input bg1" data-validate="Please Type Your Name">
+            <span class="label-input100">FULL NAME *</span>
+            <input class="input100" type="text" name="name" placeholder="Enter Your Name">
+          </div>
+  
+          <div class="wrap-input100 shadow validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (user@example.com)">
+            <span class="label-input100">Email *</span>
+            <input class="input100" type="text" name="email" placeholder="Enter Your Email ">
+          </div>
+  
+          <div class="wrap-input100 shadow bg1 rs1-wrap-input100">
+            <span class="label-input100">Phone</span>
+            <input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+          </div>
+  
+          <div class="wrap-input100 shadow input100-select bg1">
+            <span class="label-input100">Needed Services *</span>
+            <div>
+              <select class="js-select2" name="service">
+                <option>Please choose</option>
+                <option>Social Media Marketing</option>
+                <option>Search Engine Marketing(SEM)</option>
+                <option>Search Engine Optimization(SEO)</option>
+                <option>Display Ads</option>
+                <option>Brand Awareness & Reach</option>
+                <option>Local Directory Listing</option>
+              </select>
+              <div class="dropDownSelect2"></div>
+            </div>
+          </div>
+  
+          <div class="w-full dis-none js-show-service">
+            <div class="wrap-contact100-form-radio">
+              <span class="label-input100">What type of products do you sell?</span>
+  
+              <div class="contact100-form-radio m-t-15">
+                <input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+                <label class="label-radio100" for="radio1">
+                  Phycical Products
+                </label>
+              </div>
+  
+              <div class="contact100-form-radio">
+                <input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+                <label class="label-radio100" for="radio2">
+                  Digital Products
+                </label>
+              </div>
+  
+              <div class="contact100-form-radio">
+                <input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
+                <label class="label-radio100" for="radio3">
+                  Services Consulting
+                </label>
+              </div>
+            </div>
+  
+            <div class="wrap-contact100-form-range">
+              <span class="label-input100">Budget *</span>
+  
+              <div class="contact100-form-range-value">
+                GH&#162;<span id="value-lower">85</span> - GH&#162;<span id="value-upper">75000</span>
+                <input type="text" name="from-value">
+                <input type="text" name="to-value">
+              </div>
+  
+              <div class="contact100-form-range-bar">
+                <div id="filter-bar"></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="wrap-input100 shadow validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+            <span class="label-input100">Message</span>
+            <textarea class="input100" name="message" placeholder="Tell us about your project and let's get to work..."></textarea>
+          </div>
+  
+          <div class="container-contact100-form-btn">
+            <button type="submit" class="contact100-form-btn">
+              <span>
+                Submit
+                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
@@ -256,10 +376,19 @@
             <i class="fas fa-chevron-up"></i>
         </a>
   
-  
-  
-  
-  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="assets/vendors/js/animsition/js/animsition.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="assets/vendors/js/select2/select2.min.js"></script>
+      
+    <!--===============================================================================================-->
+      <script src="assets/vendors/js/daterangepicker/moment.min.js"></script>
+      <script src="assets/vendors/js/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+      <script src="assets/vendors/js/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+      <script src="assets/vendors/js/noui/nouislider.min.js"></script>
+    <!--===============================================================================================-->
+      <script src="assets/js/maincta.js"></script>
   </body>
   </html>

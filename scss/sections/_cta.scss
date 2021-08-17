@@ -1,0 +1,8 @@
+@use '../custom' as *;
+
+
+.CTA-title {
+      @include media-breakpoint-up(lg) {
+         padding-left: 12rem;
+      }
+   }

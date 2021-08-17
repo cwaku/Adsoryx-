@@ -2,6 +2,26 @@
 @use '../components/mixins' as *;
 
 
+/*Navbar */
+.autohide{
+    position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1030;
+  }
+  .scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+body {
+    padding-top: 0 !important;
+}
+
 .intro-section {
     @include gradient;
     padding: 6rem 0 0 0;
